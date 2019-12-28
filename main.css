@@ -18,11 +18,15 @@ article {
     margin: 0% 3%;
 }
 
- {
+div {
     margin: 5% 5%;
 }
 
 #about {
 background-image: url(lifestyle.jpg);
 
+}
+
+article > h4 {
+  
 }
