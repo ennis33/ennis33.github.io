@@ -1,6 +1,7 @@
 body {
-background-color: black;
-color: white;
+background-image: url(lace.jpg);
+background-size: 100%;
+background-position: absolute;
 }
 
 h1{
@@ -22,11 +23,5 @@ div {
     margin: 5% 5%;
 }
 
-#about {
-background-image: url(lifestyle.jpg);
 
-}
 
-article > h4 {
-  
-}
