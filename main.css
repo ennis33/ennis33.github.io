@@ -1,8 +1,9 @@
 body {
-    background-image: url(1080.jpg);
+    /*background-image: url(1080.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+    background-color: rgb(15,30,40);
 color: rgb(255, 255, 255);
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -19,11 +20,23 @@ main {
 article {
     max-width: 25%;
     display: inline-block;
-    margin: 0% 3%;
+    margin: 0% 10%;
 }
 
 div {
     margin: 5% 5%;
+}
+
+.portfolio > article {
+max-width: 27%;
+}
+
+h4 {
+    display: inline-block;
+}
+
+footer > h4{
+    margin: 25%, 1%, 25%, 1%;
 }
 
 
