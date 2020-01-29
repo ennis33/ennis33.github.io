@@ -4,7 +4,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;*/
     background-color: rgb(15,30,40);
-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255) !important;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -29,6 +29,7 @@ div {
 
 .portfolio > article {
 max-width: 27%;
+color: rgb(255, 255, 255) !important;
 }
 
 h4 {
@@ -38,6 +39,7 @@ h4 {
 footer > h4{
     margin: 25%, 25%,;
 }
+
 
 
 
