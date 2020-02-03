@@ -59,6 +59,9 @@ footer{
     margin-left: 1.5%;
 }
 
+a:visited {
+    color: rgb(255, 255, 255);
+}
 
 
 
