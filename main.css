@@ -63,5 +63,10 @@ a:visited {
     color: rgb(255, 255, 255);
 }
 
-
-
+.article-image {
+	
+	height:  330px;
+	width: 100%;
+	background-size: cover !important;
+	background-position: center !important;
+}
