@@ -103,5 +103,10 @@ input, textarea {
 }
 
 textarea {
-    height: 150px;
+    height: 200px;
+}
+
+button {
+    background-color: white;
+    color: black;
 }
