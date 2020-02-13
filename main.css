@@ -82,6 +82,10 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align: center;
 }
 
+section {
+    margin-bottom: 100px;
+}
+
 a:visited, a {
     color: rgb(255, 255, 255);
     text-decoration: none;
