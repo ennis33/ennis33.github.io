@@ -67,13 +67,6 @@ footer{
 }
 
 
-@media only screen and (max-width: 600px) {
-    main {
-        text-align: center;
-    margin: 0% 5%;
-    }
-  }
-
 */
 Body {
     background-color: rgb(15,30,40);
@@ -115,3 +108,14 @@ button {
     background-color: white;
     color: black;
 }
+
+@media only screen and (max-width: 600px) {
+    .article-image {
+	
+        height:  600px;
+        width: 100%;
+        background-size: cover !important;
+        background-position: center !important;
+        
+    }
+  }
