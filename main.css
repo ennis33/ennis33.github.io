@@ -1,80 +1,12 @@
-/*body, a {
-    background-image: url(1080.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    
-
-h1{
-    margin: 1.5%;
-}
-
-main {
-    text-align: center;
-    margin: 0% 15%;
-}
-
-article {
-    max-width: 29%;
-    display: inline-block;
-    margin: 0% 10%;
-}
-
-div {
-    margin: 5% 5%;
-}
-
-.portfolio > article {
-color: rgb(255, 255, 255) !important;
-}
-
-h4 {
-    display: inline-block;
-}
-
-footer > h4{
-    margin: 25%, 25%,;
-}
-
-input, textarea {
-    width: 80%;
-    margin-left: 8.5%;
-    margin-right: 10%;
-    margin-bottom: 1%;
-}
-
-textarea {
-    height: 25%;
-}
-
-button {
-    margin-left: 86%;
-}
-
-footer{
-    margin-left: 1.5%;
-}
-
-
-
-.article-image {
-	
-	height:  330px;
-	width: 100%;
-	background-size: cover !important;
-    background-position: center !important;
-    
-}
-*/
-
-
 Body {
-    background-color: rgb(15,30,40);
+background-color: rgb(15,30,40);
 color: rgb(255, 255, 255) !important;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align: center;
 margin: 7%;
 }
+
+
 
 section {
     margin-bottom: 70px;
@@ -107,6 +39,30 @@ textarea {
 button {
     background-color: white;
     color: black;
+}
+
+#toggle{
+    display: none;
+}
+
+label {
+    float: right;
+}
+
+#menu{
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+#menu a {
+    display: block;
+    border-bottom: 1px solid white;
+    margin: 0%;
+}
+
+#toggle:checked + #menu {
+    display: block;
 }
 
 @media only screen and (min-width: 700px) {
@@ -148,6 +104,12 @@ button {
         margin-right: 96%;
         display: inline-block;
     }
+
+    label{
+        display: none;
+    }
+
+
 
   }
   
